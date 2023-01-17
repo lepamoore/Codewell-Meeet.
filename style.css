@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Sen:wght@400;700;800&display=swap');
+
+body {
+    background-color: #013243;
+    padding: 0;
+    margin: 0;
+    font-family: Inter, Arial, Sans-serif;
+    overflow: hidden;
+}
+
+    /* HEADER */
+header {
+    height: 10vh;
+    width: 100vw;
+
+}
+
+header img {
+    padding: 1em;
+}
+
+    /* BODY */
+
+main {
+    margin: 0 20px;
+    height: 65vh;
+    min-width: 320px;
+}
+
+main h1 {
+    font-family: Sen, Inter, Arial, Sans-serif;
+    font-size: 3rem;
+    color: #32F5C8;
+    margin: 15vh 0 auto 0;
+    font-weight: 600;
+    z-index: 10;
+}
+
+div#zindex {
+    display: none;
+}
+
+#meeet  {
+    display: none;
+}
+
+main p {
+    color: #A9BDC6;
+    font-size: 1.4em;
+    margin-top: 4vh;
+    line-height: 1.35;
+}
+
+main p span {
+    display: none;
+}
+
+button {
+    color: #013243;
+    background-color: #32F5C8;
+    border: none;
+    border-radius: 5px;
+    height: 8.5vh;
+    width: 71.5vw;
+    letter-spacing: 0.05vw;
+    font-weight: 100;
+    font-size: 2.2em;
+    margin-top: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    /* FOOTER */
+
+footer {
+    position: sticky;
+    bottom: 0;
+    z-index: 100;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+footer div img {
+    margin: 20px;
+}
+
+footer div p {
+    font-size: 1.4em;
+    font-weight: 400;
+    color: #A9BDC6;
+}
+
+#Avatar1 {
+    display: none;
+}
+
+#Avatar2 {
+    display: block;
+    position: absolute;
+    width: 173px;
+    height: 173px;
+    top: 10vh;
+    left: 54vw;
+    z-index: -1;
+}
+
+#Avatar3 {
+    display: block;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 13vh;
+    left: 9vw;
+    z-index: -1;
+}
+
+#Avatar4 {
+    display: none;
+}
+
+#Avatar5 {
+    display: none;
+}
+
+#Avatar6 {
+    display: block;
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    top: 63vh;
+    left: 51vw;
+    z-index: -1;
+}
+
+    /*  TABLET MEDIA QUERY */
+
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
+
+    header img {
+        margin: 2vh;
+    }
+
+    main {
+        margin: 17.5vh 0vw 0vh 5vw;
+        height: 60vh;
+    }
+
+    main h1 {
+        font-size: 6em;
+    }
+
+    main p {
+        max-width: 60vw;
+        margin-bottom: 4vh;
+        font-size: 1.5em;
+        line-height: 1.5;
+    }
+
+    main p span {
+        display: inline;
+    }
+
+    button {
+        width: 37.5vw;
+        height: 6vh;
+    }
+
+    footer div {
+        margin-left: 3vw;
+    }
+
+    #Avatar1 {
+        display: block;
+        position: absolute;
+        width: 119px;
+        height: 119px;
+        top: 29.5vh;
+        left: 75vw;
+        z-index: -1;
+    }
+
+    #Avatar2 {
+        display: block;
+        position: absolute;
+        width: 173px;
+        height: 173px;
+        top: 4vh;
+        left: 68vw;
+        z-index: -1;
+    }
+    
+    #Avatar3 {
+        display: block;
+        position: absolute;
+        width: 137px;
+        height: 137px;
+        top: 9.2vh;
+        left: 6.2vw;
+        z-index: -1;
+    }
+    
+    #Avatar4 {
+        display: block;
+        position: absolute;
+        width: 249px;
+        height: 249px;
+        top: 69vh;
+        left: 60vw;
+        z-index: -1;
+    }
+    
+    #Avatar5 {
+        display: block;
+        position: absolute;
+        width: 124px;
+        height: 124px;
+        top: 21.5vh;
+        left: 56vw;
+        z-index: -1;
+    }
+    
+    #Avatar6 {
+        display: block;
+        position: absolute;
+        width: 141px;
+        height: 141px;
+        top: 45.5vh;
+        left: 67vw;
+        z-index: -1;
+    }   
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+    header, main {
+        margin: 2vh 10vw;
+    }
+
+    header {
+        margin-bottom: 0;
+    }
+
+    main {
+        margin-top: 0;
+    }
+
+    main h1 {
+        font-size: 8rem;
+        line-height: 1;
+        letter-spacing: normal;
+        margin-top: 7vh;
+        margin-bottom: 5vh;
+    }
+
+    #meeet {
+        display: inline;
+    }
+
+    div#zindex {
+        z-index: 2;
+        display: inline;
+    }
+
+    div#zindex h1 {
+        font-size: 8rem;
+        line-height: 1;
+        letter-spacing: normal;
+        margin-top: 7vh;
+        margin-bottom: 5vh;
+        display: inline;
+        z-index: 100;
+        position: relative;
+    }
+
+    #neurs {
+        display: none;
+    }
+
+    main p {
+        margin-bottom: 5vh;
+    }
+
+    main p span {
+        display: inline;
+    }
+
+    button {
+        width: 23vw;
+        max-width: 440px;
+        max-height: 90px;
+    }
+
+    footer {
+        margin-left: 8vw;
+    }
+
+    #Avatar1 {
+        display: block;
+        position: absolute;
+        width: 119px;
+        height: 119px;
+        top: 42vh;
+        left: 76vw;
+        z-index: -1;
+    }
+
+    #Avatar2 {
+        display: block;
+        position: absolute;
+        width: 173px;
+        height: 173px;
+        top: 7vh;
+        left: 75vw;
+        z-index: -1;
+    }
+    
+    #Avatar3 {
+        display: block;
+        position: absolute;
+        width: 137px;
+        height: 137px;
+        top: 12vh;
+        left: 2vw;
+        z-index: -1;
+    }
+    
+    #Avatar4 {
+        display: block;
+        position: absolute;
+        width: 249px;
+        height: 249px;
+        top: 69vh;
+        left: 60vw;
+        z-index: -1;
+    }
+    
+    #Avatar5 {
+        display: block;
+        position: absolute;
+        width: 124px;
+        height: 124px;
+        top: 12vh;
+        left: 60.5vw;
+        z-index: -1;
+    }
+    
+    #Avatar6 {
+        display: block;
+        position: absolute;
+        width: 141px;
+        height: 141px;
+        top: 45vh;
+        left: 47vw;
+        z-index: 0;
+}

@@ -11,7 +11,7 @@ Here you can see my solution of an Codewell project called "Meeet Waitlist Templ
 
 ![Tablet preview for the "Meet Waitlist Template" project.](./codeWellMeeetTablet.png)
 
-![Desktop preview for the "Meet Waitlist Template" project.](./codeWellMeeetDesktop.png)
+![Desktop preview for the "Meet Waitlist Template" project.](./codeWellMeetDesktop.png)
 
 
 ### Fonts Used
